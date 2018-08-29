@@ -2,8 +2,8 @@
 //  DateConverter.m
 //  GithubClient
 //
-//  Created by Vladislav Kalaev on 10.09.17.
-//  Copyright © 2017 Artem. All rights reserved.
+//  Created by Artem Lytkin on 28.08.18.
+//  Copyright © 2018 Artem. All rights reserved.
 //
 
 #import "DateConverter.h"
@@ -17,7 +17,7 @@
     return [dateFormatter stringFromDate:date];
 }
 
-- (NSDate*) getDateFromString:(NSString*)date {
+- (NSDate*)getDateFromString:(NSString*)date {
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     [dateFormatter setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'Z'"];
     [dateFormatter setLocale:[[NSLocale alloc] initWithLocaleIdentifier:@"ru_RU"]];

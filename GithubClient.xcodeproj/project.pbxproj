@@ -318,7 +318,7 @@
 				TargetAttributes = {
 					C7E134961E39EAC900A8B846 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = FS3TD4EHK6;
+						DevelopmentTeam = AB7L39S24D;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -552,9 +552,9 @@
 			baseConfigurationReference = CCB9EF961A74A5C4E8B87866 /* Pods-GithubClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FS3TD4EHK6;
+				DEVELOPMENT_TEAM = AB7L39S24D;
 				INFOPLIST_FILE = GithubClient/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lytkin.GithubClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -567,9 +567,9 @@
 			baseConfigurationReference = 4E2A3E76FA850921603CB2DE /* Pods-GithubClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FS3TD4EHK6;
+				DEVELOPMENT_TEAM = AB7L39S24D;
 				INFOPLIST_FILE = GithubClient/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lytkin.GithubClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
