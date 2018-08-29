@@ -3,7 +3,7 @@
 //  GithubClient
 //
 //  Created by Vladislav Kalaev on 07.09.17.
-//  Copyright © 2017 Artem. All rights reserved.
+//  Copyright © 2018 Artem. All rights reserved.
 //
 
 #import "CommitModel.h"
