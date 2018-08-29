@@ -15,9 +15,10 @@ static NSString * const NetworkManagerClientSecret = @"ce4a9b9cd8c5aeb50c0bf6a27
 
 static NSString * const NetworkManagerScopeParameters = @"user,repo";
 
-static NSString *  const NetworkManagerGetUserTokenURLString = @"https://github.com/login/oauth/access_token";
-static NSString *  const NetworkManagerGetUserInfoApiURLString = @"https://api.github.com/user";
-static NSString *  const NetworkManagerGetUserRepositoriesApiURLString = @"https://api.github.com/user/repos";
+static NSString * const NetworkManagerGetUserTokenURLString = @"https://github.com/login/oauth/access_token";
+static NSString * const NetworkManagerGetUserInfoApiURLString = @"https://api.github.com/user";
+static NSString * const NetworkManagerGetUserRepositoriesApiURLString = @"https://api.github.com/user/repos";
+static NSString * const NetworkManagerGetOctocatFollowersApiURLString = @"https://api.github.com/users/octocat/followers";
 
 @interface NetworkManager()
 
@@ -101,6 +102,33 @@ static NSString *  const NetworkManagerGetUserRepositoriesApiURLString = @"https
 }
 
 #pragma mark - User methods
+
+- (void) getFollowersOfUser: (NSString *) userName completionHandler: (void (^)(NSArray *responseArray)) completionHandler failureHandler: (void (^)(NSError *error)) failureHandler {
+    NSURLSessionConfiguration *sessionConfiguration = [NSURLSessionConfiguration defaultSessionConfiguration];
+    
+    AFHTTPSessionManager *manager =
+    [[AFHTTPSessionManager alloc] initWithSessionConfiguration:sessionConfiguration];
+    
+    manager.requestSerializer = [AFJSONRequestSerializer serializer];
+    
+    if (userName == nil) {
+        userName = NetworkManagerGetOctocatFollowersApiURLString;
+    }
+    
+    [manager GET:userName
+      parameters:nil
+        progress:nil
+         success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+             if (completionHandler) {
+                 completionHandler(responseObject);
+             }
+         }
+         failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+             if (failureHandler) {
+                 failureHandler(error);
+             }
+         }];
+}
 
 - (void) getUserTokenWithCode: (NSString *) code completionHandler: (void (^)(NSString *token)) completionHandler failureHandler: (void (^)(NSError *error)) failureHandler {
     

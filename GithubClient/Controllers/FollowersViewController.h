@@ -1,5 +1,5 @@
 //
-//  RapositoryTableView.h
+//  RepositoriesViewController.h
 //  GithubClient
 //
 //  Created by Artem Lytkin on 28.08.18.
@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RepositoryCell.h"
+#import "ParentViewController.h"
 
-@interface RapositoryTableView : UITableView
+@interface FollowersViewController : ParentViewController
 
 @end

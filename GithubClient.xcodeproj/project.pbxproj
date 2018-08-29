@@ -11,8 +11,11 @@
 		0F0C5BC51F6220140051D238 /* CommitsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0C5BC41F6220140051D238 /* CommitsViewController.m */; };
 		0F0C5C381F6223BF0051D238 /* CommitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0C5C371F6223BF0051D238 /* CommitCell.m */; };
 		0F0C5C3B1F622B830051D238 /* DateConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0C5C3A1F622B830051D238 /* DateConverter.m */; };
-		0FA034E11F655B090081AF3B /* RapositoryTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA034E01F655B090081AF3B /* RapositoryTableView.m */; };
+		0FA034E11F655B090081AF3B /* CustomTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA034E01F655B090081AF3B /* CustomTableView.m */; };
 		0FA034EA1F6583B60081AF3B /* CommitModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA034E91F6583B60081AF3B /* CommitModel.m */; };
+		1B7D10BB213665D40003262F /* FollowersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7D10BA213665D40003262F /* FollowersViewController.m */; };
+		1B7D10BF21366D6D0003262F /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B7D10BC21366D6D0003262F /* UserCell.xib */; };
+		1B7D10C021366D6D0003262F /* UserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7D10BE21366D6D0003262F /* UserCell.m */; };
 		7D6667E53047F77E5AE48655 /* libPods-GithubClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 304D95A1132FACC7EB14925E /* libPods-GithubClient.a */; };
 		C7804DF61E3CEF8A003AC217 /* RequestActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7804DF51E3CEF8A003AC217 /* RequestActivityIndicatorView.m */; };
 		C7D356091E3B79BC001C242F /* RepositoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D356071E3B79BC001C242F /* RepositoryCell.m */; };
@@ -41,10 +44,15 @@
 		0F0C5C371F6223BF0051D238 /* CommitCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommitCell.m; path = ../../Controllers/CommitCell.m; sourceTree = "<group>"; };
 		0F0C5C391F622B820051D238 /* DateConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DateConverter.h; path = Controllers/DateConverter.h; sourceTree = "<group>"; };
 		0F0C5C3A1F622B830051D238 /* DateConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DateConverter.m; path = Controllers/DateConverter.m; sourceTree = "<group>"; };
-		0FA034DF1F655B090081AF3B /* RapositoryTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RapositoryTableView.h; sourceTree = "<group>"; };
-		0FA034E01F655B090081AF3B /* RapositoryTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RapositoryTableView.m; sourceTree = "<group>"; };
+		0FA034DF1F655B090081AF3B /* CustomTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableView.h; sourceTree = "<group>"; };
+		0FA034E01F655B090081AF3B /* CustomTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableView.m; sourceTree = "<group>"; };
 		0FA034E81F6583B60081AF3B /* CommitModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommitModel.h; sourceTree = "<group>"; };
 		0FA034E91F6583B60081AF3B /* CommitModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommitModel.m; sourceTree = "<group>"; };
+		1B7D10B9213665D40003262F /* FollowersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FollowersViewController.h; sourceTree = "<group>"; };
+		1B7D10BA213665D40003262F /* FollowersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FollowersViewController.m; sourceTree = "<group>"; };
+		1B7D10BC21366D6D0003262F /* UserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCell.xib; sourceTree = "<group>"; };
+		1B7D10BD21366D6D0003262F /* UserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCell.h; sourceTree = "<group>"; };
+		1B7D10BE21366D6D0003262F /* UserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCell.m; sourceTree = "<group>"; };
 		304D95A1132FACC7EB14925E /* libPods-GithubClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GithubClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E2A3E76FA850921603CB2DE /* Pods-GithubClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-GithubClient/Pods-GithubClient.release.xcconfig"; sourceTree = "<group>"; };
 		C7804DF41E3CEF8A003AC217 /* RequestActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestActivityIndicatorView.h; sourceTree = "<group>"; };
@@ -107,8 +115,8 @@
 		0FA034DE1F655B090081AF3B /* TableViews */ = {
 			isa = PBXGroup;
 			children = (
-				0FA034DF1F655B090081AF3B /* RapositoryTableView.h */,
-				0FA034E01F655B090081AF3B /* RapositoryTableView.m */,
+				0FA034DF1F655B090081AF3B /* CustomTableView.h */,
+				0FA034E01F655B090081AF3B /* CustomTableView.m */,
 			);
 			name = TableViews;
 			path = GithubClient/Views/TableViews;
@@ -173,6 +181,9 @@
 		C7D355F81E3B74CC001C242F /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				1B7D10BD21366D6D0003262F /* UserCell.h */,
+				1B7D10BE21366D6D0003262F /* UserCell.m */,
+				1B7D10BC21366D6D0003262F /* UserCell.xib */,
 				C7D356061E3B79BC001C242F /* RepositoryCell.h */,
 				C7D356071E3B79BC001C242F /* RepositoryCell.m */,
 				C7D356081E3B79BC001C242F /* RepositoryCell.xib */,
@@ -245,6 +256,8 @@
 		C7E134B51E39F0B700A8B846 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1B7D10B9213665D40003262F /* FollowersViewController.h */,
+				1B7D10BA213665D40003262F /* FollowersViewController.m */,
 				C7D356121E3B8CF3001C242F /* ParentViewController.h */,
 				C7D356131E3B8CF3001C242F /* ParentViewController.m */,
 				C7D3560B1E3B81FB001C242F /* UserViewController.h */,
@@ -295,7 +308,6 @@
 				C7E134931E39EAC900A8B846 /* Sources */,
 				C7E134941E39EAC900A8B846 /* Frameworks */,
 				C7E134951E39EAC900A8B846 /* Resources */,
-				F377A99829FE1084CF088D79 /* [CP] Embed Pods Frameworks */,
 				EF7CD0209C1C51EF09920C80 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -318,7 +330,7 @@
 				TargetAttributes = {
 					C7E134961E39EAC900A8B846 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = AB7L39S24D;
+						DevelopmentTeam = FS3TD4EHK6;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -351,6 +363,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B7D10BF21366D6D0003262F /* UserCell.xib in Resources */,
 				C7E134AA1E39EACA00A8B846 /* LaunchScreen.storyboard in Resources */,
 				C7E134A51E39EACA00A8B846 /* Main.storyboard in Resources */,
 				0F0C5BBC1F6200BA0051D238 /* Assets.xcassets in Resources */,
@@ -367,13 +380,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GithubClient-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EF7CD0209C1C51EF09920C80 /* [CP] Copy Pods Resources */ = {
@@ -382,28 +398,18 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GithubClient/Pods-GithubClient-resources.sh",
+				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SAMKeychain.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GithubClient/Pods-GithubClient-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F377A99829FE1084CF088D79 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GithubClient/Pods-GithubClient-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -417,17 +423,19 @@
 				C7E1349F1E39EACA00A8B846 /* AppDelegate.m in Sources */,
 				C7E134C51E3A153500A8B846 /* NetworkManager.m in Sources */,
 				0F0C5BC51F6220140051D238 /* CommitsViewController.m in Sources */,
+				1B7D10BB213665D40003262F /* FollowersViewController.m in Sources */,
 				C7D356141E3B8CF3001C242F /* ParentViewController.m in Sources */,
 				C7D3561C1E3BB737001C242F /* LoginButton.m in Sources */,
 				0F0C5C3B1F622B830051D238 /* DateConverter.m in Sources */,
 				C7E1349C1E39EACA00A8B846 /* main.m in Sources */,
 				0F0C5C381F6223BF0051D238 /* CommitCell.m in Sources */,
 				C7E134CC1E3A63DA00A8B846 /* RepositoryModel.m in Sources */,
-				0FA034E11F655B090081AF3B /* RapositoryTableView.m in Sources */,
+				0FA034E11F655B090081AF3B /* CustomTableView.m in Sources */,
 				C7804DF61E3CEF8A003AC217 /* RequestActivityIndicatorView.m in Sources */,
 				C7E134C11E39F24300A8B846 /* AuthorizationViewController.m in Sources */,
 				C7D356091E3B79BC001C242F /* RepositoryCell.m in Sources */,
 				C7D356111E3B8BDD001C242F /* UIViewController+Additions.m in Sources */,
+				1B7D10C021366D6D0003262F /* UserCell.m in Sources */,
 				C7D3560D1E3B81FB001C242F /* UserViewController.m in Sources */,
 				C7E134BB1E39F17600A8B846 /* RepositoriesViewController.m in Sources */,
 				C7E134C91E3A591E00A8B846 /* UserModel.m in Sources */,
@@ -552,7 +560,7 @@
 			baseConfigurationReference = CCB9EF961A74A5C4E8B87866 /* Pods-GithubClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = AB7L39S24D;
+				DEVELOPMENT_TEAM = FS3TD4EHK6;
 				INFOPLIST_FILE = GithubClient/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -567,7 +575,7 @@
 			baseConfigurationReference = 4E2A3E76FA850921603CB2DE /* Pods-GithubClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = AB7L39S24D;
+				DEVELOPMENT_TEAM = FS3TD4EHK6;
 				INFOPLIST_FILE = GithubClient/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

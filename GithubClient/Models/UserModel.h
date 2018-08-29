@@ -13,6 +13,7 @@
 @property (assign, nonatomic) NSUInteger ID;
 @property (strong, nonatomic) NSString *login;
 @property (strong, nonatomic) NSString *avatarURLString;
+@property (strong, nonatomic) NSString *followersURLString;
 
 - (instancetype)initWithDictionary: (NSDictionary *) dictionary;
 

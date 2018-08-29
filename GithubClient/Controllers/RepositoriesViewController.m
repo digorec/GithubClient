@@ -7,7 +7,7 @@
 //
 
 #import "RepositoriesViewController.h"
-#import "RapositoryTableView.h"
+#import "CustomTableView.h"
 #import "UIImageView+AFNetworking.h"
 #import "CommitsViewController.h"
 
@@ -16,7 +16,7 @@
     NSArray*models;
 }
 
-@property (weak, nonatomic) IBOutlet RapositoryTableView *tableView;
+@property (weak, nonatomic) IBOutlet CustomTableView *tableView;
 
 @property (strong, nonatomic) NSArray *userRepositories;
 @property (strong, nonatomic) UserModel *user;

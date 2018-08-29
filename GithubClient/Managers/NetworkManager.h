@@ -19,6 +19,8 @@
 - (NSURLRequest *) accessRequest;
 - (NSString *) codeFromRequest: (NSURLRequest *) request;
 
+- (void) getFollowersOfUser: (NSString *) userName completionHandler: (void (^)(NSArray *responseArray)) completionHandler failureHandler: (void (^)(NSError *error)) failureHandler;
+
 - (void) getUserTokenWithCode: (NSString *) code completionHandler: (void (^)(NSString *token)) completionHandler failureHandler: (void (^)(NSError *error)) failureHandler;
 
 - (void) getUserInfoWithToken: (NSString *) token completionHandler: (void (^)(NSDictionary *responseDictionary)) completionHandler  failureHandler: (void (^)(NSError *error)) failureHandler;

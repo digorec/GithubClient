@@ -5,6 +5,7 @@ target 'GithubClient' do
 
 pod "AFNetworking", "~> 3.0"
 pod "SDWebImage", "~>3.8"
+pod "SVProgressHUD"
 pod "SAMKeychain"
 
 end
